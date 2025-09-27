@@ -1,0 +1,136 @@
+
+ 
+/* for Firefox */
+ html {scrollbar-color: #9e4673 #3d4a59;} 
+
+
+html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fustat:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --primary-color: #000;
+  --secondary-color: rgba(24 24 27 );
+  --border : rgba(63, 63, 70, 0.4);
+  --title-color: rgba(224 224 245);
+  --blue : rgba(93 188 252);
+  --subTitle : rgba(161 161 170);
+  --bg-header : rgba(39 39 42);
+  --container-padding: 4.8rem;
+  
+}
+
+ .light {
+  --primary-color: #f9f9fb; /* خلفية الصفحة */
+  --secondary-color: #ffffff; /* خلفية الكروت أو البلوكات */
+  --border: rgba(200, 200, 200, 0.6); /* حدود ناعمة */
+  --title-color: #1a1a1a; /* العنوان الأساسي */
+  --subTitle: #4a4a8a; /* العنوان الثانوي */
+  --blue: #245fbe; /* أزرار وروابط */
+  --bg-header: rgba(255, 255, 255, 0.9); /* خلفية الهيدر بشفافية خفيفة */
+  --container-padding: 4.8rem;
+}
+
+
+
+
+
+body{
+  background-color: var(--primary-color);
+  color: #fff;
+  
+}
+html{
+  box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   letter-spacing: 2px;
+}
+.container{
+  border: 2px solid var(--border);
+  width: 80%;
+  margin: auto;
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0 4.8rem;
+}
+.divider{
+   border-bottom: 1px solid var(--border);
+  margin: 3rem 0;
+  width: calc(100% + var(--container-padding) + var(--container-padding));
+  margin-left: calc(var(--container-padding) * -1);
+}
+.flex{
+  display: flex;
+ align-items: center;
+ 
+}
+li{
+  list-style: none;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+button{
+  all: unset;
+}
+button:hover{
+
+  cursor: pointer;
+}
+button:active{
+  scale: 0.9;
+}
+button.disabled{
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.scroolTotop{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--bg-header);
+  padding: 0.6rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  transition:  0.1s;
+}
+.scroolTotop:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+.scroolTotop img{
+  width: 20px;
+  height: 20px;
+  
+}
+@media (max-width: 1000px) {
+  .container{
+    width: 90%;
+    padding:  0 1.7rem;
+  }
+   .divider{
+    margin-left: -1.7rem;
+    width: calc(100% + 1.7rem + 1.7rem);
+   }
+  
+}
+@media (max-width: 500px) {
+  .container{
+    width: 95%;
+    /* padding:  0 1.7rem; */
+  }
+  .scroolTotop{
+    opacity: 0.4;
+  }
+  
+}
