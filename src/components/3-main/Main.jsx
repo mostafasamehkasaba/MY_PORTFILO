@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Main.css";
 import {MyProjects} from './My-project'
 
+import { motion } from "framer-motion";
 
 
 const Main = () => {
@@ -60,9 +61,17 @@ const Main = () => {
       </section>
 
       <section className="flex  right-section">
+      
         {arr.map((item) => {
           return (
-            <article key={item.projectTitle} className="card">
+            <motion.article
+              layout
+              animate={{ transform: "scale(1)" }}
+              initial={{ transform: "scale(0)" }}
+              // exit={{ opactiy: 0 }}
+              key={item.projectTitle}
+              className="card"
+            >
               <img
                 width={260}
                 src={item.imgPath}
@@ -71,9 +80,7 @@ const Main = () => {
               />
               <div
                 className="box"
-                style={{
-                  width: 266,
-                }}
+              
               >
                 <h1 className="title">{item.projectTitle}</h1>
                 <p className="sub-title">{item.cattegory}</p>
@@ -89,7 +96,7 @@ const Main = () => {
                   <button className="link-to-page">More</button>
                 </div>
               </div>
-            </article>
+            </motion.article>
           );
         })}
       </section>

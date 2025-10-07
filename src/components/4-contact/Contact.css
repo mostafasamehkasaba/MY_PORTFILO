@@ -118,7 +118,7 @@ section.contact .detailes .animation .contactUS{
 section.contact form{
     width: 50%;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     section.contact .detailes{
         width: 100%;
         display: flex;
@@ -147,6 +147,7 @@ section.contact form{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    text-align: start;
     
 }
 .contact form #email  , .contact form  #messege{
