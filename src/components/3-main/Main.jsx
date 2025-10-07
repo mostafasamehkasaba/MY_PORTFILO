@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Main.css";
 import {MyProjects} from './My-project'
 
-import { motion } from "framer-motion";
+
 
 
 const Main = () => {
