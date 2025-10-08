@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
           <div className="icon">
             <a href="https://github.com/mostafasamehkasaba">
-              <img src="/public/github.svg" alt="" />
+              <img src="/github.svg" alt="" />
             </a>
           </div>
           <div className="icon">

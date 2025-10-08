@@ -32,7 +32,7 @@ useEffect(() => {
       <Footer />
       <a href="#up" style={{opacity: showScrool ? 1 : 0 }}>
         <button className="scroolTotop">
-          <img src="/public/arrow-up.svg" alt="" />
+          <img src="/arrow-up.svg" alt="" />
         </button>
       </a>
     </div>
