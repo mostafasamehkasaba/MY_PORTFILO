@@ -37,7 +37,7 @@ const Hero = () => {
         <div className="icons flex">
           <div className="icon">
             <a href="https://surl.lt/fbijcc">
-              <img src="public/linkedin-square.svg" alt="" />
+              <img src="/linkedin-square.svg" alt="" />
             </a>
           </div>
           <div className="icon">
@@ -47,12 +47,12 @@ const Hero = () => {
           </div>
           <div className="icon">
             <a href="http://">
-              <img src="/public/twitter.svg" alt="" />
+              <img src="/twitter.svg" alt="" />
             </a>
           </div>
           <div className="icon">
             <a href="https://www.facebook.com/share/1G5BaAbjSA/">
-              <img src="/public/facebook.svg" alt="" />
+              <img src="/facebook.svg" alt="" />
             </a>
           </div>
         </div>

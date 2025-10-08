@@ -84,10 +84,10 @@ const Main = () => {
                   <div className="flex last ">
                     <div className="link">
                       <a href="http://" className="link1">
-                        <img src="/public/link.svg" alt="" />
+                        <img src="/link.svg" alt="" />
                       </a>
                       <a href="http://" className="link2">
-                        <img src="/public/github.svg" alt="" />
+                        <img src="/github.svg" alt="" />
                       </a>
                     </div>
                     <button className="link-to-page">More</button>
