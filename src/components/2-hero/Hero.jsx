@@ -13,7 +13,7 @@ const Hero = () => {
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 8, type: "spring", stiffness: 100 }}
             className="avatar"
-            src="/public/Mos-modified.png"
+            src="/Mos-modified.png"
             alt=""
           />
           <span>
