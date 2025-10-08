@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Main.css";
 import {MyProjects} from './My-project'
 
-
+import { motion, AnimatePresence } from "framer-motion";
 
 
 const Main = () => {
@@ -34,7 +34,7 @@ const Main = () => {
         </button>
         <button
           onClick={() => {
-            handleClick("html-css")
+            handleClick("html-css");
           }}
           className={currentActive === "html-css" ? "active" : null}
         >
@@ -44,7 +44,7 @@ const Main = () => {
 
         <button
           onClick={() => {
-            handleClick("js")
+            handleClick("js");
           }}
           className={currentActive === "js" ? "active" : null}
         >
@@ -52,7 +52,7 @@ const Main = () => {
         </button>
         <button
           onClick={() => {
-            handleClick("react")
+            handleClick("react");
           }}
           className={currentActive === "react" ? "active" : null}
         >
@@ -61,44 +61,42 @@ const Main = () => {
       </section>
 
       <section className="flex  right-section">
-      
-        {arr.map((item) => {
-          return (
-            <motion.article
-              layout
-              animate={{ transform: "scale(1)" }}
-              initial={{ transform: "scale(0)" }}
-              // exit={{ opactiy: 0 }}
-              key={item.projectTitle}
-              className="card"
-            >
-              <img
-                width={260}
-                src={item.imgPath}
-                alt=""
-                className="img-project"
-              />
-              <div
-                className="box"
-              
+        <AnimatePresence>
+          {arr.map((item) => {
+            return (
+              <motion.article
+                layout
+                animate={{ transform: "scale(1)" }}
+                initial={{ transform: "scale(0)" }}
+                // exit={{ opactiy: 0 }}
+                key={item.projectTitle}
+                className="card"
               >
-                <h1 className="title">{item.projectTitle}</h1>
-                <p className="sub-title">{item.cattegory}</p>
-                <div className="flex last ">
-                  <div className="link">
-                    <a href="http://" className="link1">
-                      <img src="/public/link.svg" alt="" />
-                    </a>
-                    <a href="http://" className="link2">
-                      <img src="/public/github.svg" alt="" />
-                    </a>
+                <img
+                  width={260}
+                  src={item.imgPath}
+                  alt=""
+                  className="img-project"
+                />
+                <div className="box">
+                  <h1 className="title">{item.projectTitle}</h1>
+                  <p className="sub-title">{item.cattegory}</p>
+                  <div className="flex last ">
+                    <div className="link">
+                      <a href="http://" className="link1">
+                        <img src="/public/link.svg" alt="" />
+                      </a>
+                      <a href="http://" className="link2">
+                        <img src="/public/github.svg" alt="" />
+                      </a>
+                    </div>
+                    <button className="link-to-page">More</button>
                   </div>
-                  <button className="link-to-page">More</button>
                 </div>
-              </div>
-            </motion.article>
-          );
-        })}
+              </motion.article>
+            );
+          })}
+        </AnimatePresence>
       </section>
     </div>
   );

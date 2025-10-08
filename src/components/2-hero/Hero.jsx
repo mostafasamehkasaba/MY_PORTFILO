@@ -1,8 +1,8 @@
-import React from 'react'
-import "./Hero.css"
+import React from "react";
+import "./Hero.css";
 import Lottie from "lottie-react";
-import developerAnimation from '../../../public/animation/Desktop and smartphone app development.json'
-import { motion, scale } from "motion/react"
+import developerAnimation from "../../../public/animation/Desktop and smartphone app development.json";
+import { motion } from "motion/react";
 const Hero = () => {
   return (
     <section className="hero " id="hero">
@@ -66,6 +66,6 @@ const Hero = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Hero
+export default Hero;

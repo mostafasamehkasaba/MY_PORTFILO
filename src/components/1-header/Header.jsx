@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
+import "../../../public/style.css"
 import "./Header.css";
 const Header = () => {
   const [showmodel, setShowmodel] = useState(false);
@@ -51,15 +52,21 @@ const Header = () => {
           // get value from ls
           setmode(localStorage.getItem("currentMode"));
         }}
-        className="icon-moon-o moon"
-      ></button>
+        className=" moon"
+      >
+        {mode === "dark" ? (
+          <span className="icon-adjust"> </span>
+        ) : (
+          <span className="icon-sun"></span>
+        )}
+      </button>
 
       {showmodel && (
         <div className=" fixed">
           <ul>
             <li>
               <button
-                className="icon-close "
+                className="icon-cross "
                 onClick={() => setShowmodel(false)}
               ></button>
             </li>

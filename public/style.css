@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?r0ehiu');
+  src:  url('fonts/icomoon.eot?r0ehiu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?r0ehiu') format('truetype'),
+    url('fonts/icomoon.woff?r0ehiu') format('woff'),
+    url('fonts/icomoon.svg?r0ehiu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adjust:before {
+  content: "\e900";
+}
+.icon-brightness-up:before {
+  content: "\e903";
+}
+.icon-close:before {
+  content: "\e901";
+}
+.icon-expertsexchange:before {
+  content: "\e902";
+  color: #00aae7;
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-cancel-circle:before {
+  content: "\ea0d";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
