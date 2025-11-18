@@ -6,13 +6,7 @@
      urlGithub: "https://github.com/mostafasamehkasaba/MY_PORTFILO.git",
      urlProject: "https://my-portfilo-cffb8.web.app/",
    },
-   {
-     projectTitle: "html & css Project",
-     cattegory: ["html-css", "react"],
-     imgPath: "/arrow-up.svg",
-     urlGithub: "https://github.com/mostafasamehkasaba/MY_PORTFILO.git",
-     urlProject: "https://my-portfilo-cffb8.web.app/",
-   },
+
    {
      projectTitle: "To-Do-List",
      cattegory: ["Html-css", " & ", "js"],
