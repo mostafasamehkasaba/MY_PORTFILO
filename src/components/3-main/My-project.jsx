@@ -43,4 +43,11 @@
      urlGithub: "https://github.com/mostafasamehkasaba/New-Ecommerce.git",
      urlProject: "https://new-ecommerce-peach.vercel.app/",
    },
+   {
+     projectTitle: "Weather-App",
+     cattegory: ["Html-css", " & ", "js"],
+     imgPath: "/weather-app.png",
+     urlGithub: "https://github.com/mostafasamehkasaba/WeatherApp.git",
+     urlProject: "https://weather-app-sigma-seven-13.vercel.app/",
+   },
  ];
