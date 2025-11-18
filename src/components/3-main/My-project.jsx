@@ -39,7 +39,7 @@
    {
      projectTitle: "New-Ecommerce",
      cattegory: ["Html-css", " & ", "js"],
-     imgPath: "/fitness-pro.jpg",
+     imgPath: "/New-Ecommerce.png",
      urlGithub: "https://github.com/mostafasamehkasaba/New-Ecommerce.git",
      urlProject: "https://new-ecommerce-peach.vercel.app/",
    },
