@@ -1,27 +1,45 @@
  export  const MyProjects = [
    {
      projectTitle: "My-Portfilo",
-     cattegory: [ "html-css","js", "react"],
+     cattegory: ["Html-css", " & ", "js", " & ", "react", " & ", "Vite"],
      imgPath: "/Mos-modified.png",
+     urlGithub: "https://github.com/mostafasamehkasaba/MY_PORTFILO.git",
+     urlProject: "https://my-portfilo-cffb8.web.app/",
    },
    {
      projectTitle: "html & css Project",
      cattegory: ["html-css", "react"],
      imgPath: "/arrow-up.svg",
+     urlGithub: "https://github.com/mostafasamehkasaba/MY_PORTFILO.git",
+     urlProject: "https://my-portfilo-cffb8.web.app/",
    },
    {
      projectTitle: "To-Do-List",
-     cattegory: ["html-css", "js"],
+     cattegory: ["Html-css", " & ", "js"],
      imgPath: "/TO_DO_list.png",
+     urlGithub: "https://github.com/mostafasamehkasaba/TO-DO-List1.git",
+     urlProject: "https://mostafasamehkasaba.github.io/TO-DO-List1/",
    },
    {
      projectTitle: "Age Calculator App",
-     cattegory: ["html-css", "js"],
+     cattegory: ["Html-css", " & ", "js"],
      imgPath: "/Calc-Age -App.png",
+     urlGithub: "https://github.com/mostafasamehkasaba/Age-Calculator-App.git",
+     urlProject: "https://mostafasamehkasaba.github.io/Age-Calculator-App/",
    },
    {
      projectTitle: "Generate a Random Password",
      cattegory: ["html-css", "js"],
      imgPath: "/Generate a Random Passwordpng.png",
+     urlGithub:
+       "https://github.com/mostafasamehkasaba/Generate-a-Random-Password.git",
+     urlProject: "https://my-portfilo-cffb8.web.app/",
+   },
+   {
+     projectTitle: "Fitness-pro",
+     cattegory: ["Html-css", " & ", "js", " & ", " & ", "Next.js"],
+     imgPath: "/fitness-pro.jpg",
+     urlGithub: "https://github.com/mostafasamehkasaba/Fitness-Pro.git",
+     urlProject: "https://fitness-pro-h7se.vercel.app/",
    },
  ];

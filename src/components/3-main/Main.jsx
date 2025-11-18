@@ -58,6 +58,14 @@ const Main = () => {
         >
           React & Vite
         </button>
+        <button
+          onClick={() => {
+            handleClick("react");
+          }}
+          className={currentActive === "Next" ? "active" : null}
+        >
+          React & Next
+        </button>
       </section>
 
       <section className="flex  right-section">
@@ -83,10 +91,10 @@ const Main = () => {
                   <p className="sub-title">{item.cattegory}</p>
                   <div className="flex last ">
                     <div className="link">
-                      <a href="http://" className="link1">
+                      <a href={item.urlProject} className="link1">
                         <img src="/link.svg" alt="" />
                       </a>
-                      <a href="http://" className="link2">
+                      <a href={item.urlGithub} className="link2">
                         <img src="/github.svg" alt="" />
                       </a>
                     </div>

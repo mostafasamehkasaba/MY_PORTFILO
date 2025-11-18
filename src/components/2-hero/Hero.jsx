@@ -30,7 +30,7 @@ const Hero = () => {
         </motion.h1>
         <p className="description">
           💼 Front-End Developer with a Bachelor’s degree in Management
-          Information Systems, skilled in React, Vite,Next.js , HTML, CSS, and
+          Information Systems, skilled in React, Vite,Next.js ,bootstrap, Tailwind, HTML, CSS, and
           JavaScript. Passionate about building responsive and user-friendly web
           applications.
         </p>
