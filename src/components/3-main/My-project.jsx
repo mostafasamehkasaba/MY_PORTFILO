@@ -42,4 +42,11 @@
      urlGithub: "https://github.com/mostafasamehkasaba/Fitness-Pro.git",
      urlProject: "https://fitness-pro-h7se.vercel.app/",
    },
+   {
+     projectTitle: "New-Ecommerce",
+     cattegory: ["Html-css", " & ", "js"],
+     imgPath: "/fitness-pro.jpg",
+     urlGithub: "https://github.com/mostafasamehkasaba/New-Ecommerce.git",
+     urlProject: "https://new-ecommerce-peach.vercel.app/",
+   },
  ];
